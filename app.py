@@ -16,7 +16,7 @@ st.markdown(
 import pickle
 import numpy as np
 
-with open("student_model.pkl", "rb") as model_file:
+with open(r"student_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 st.title("Final Score Prediction")
